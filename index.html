@@ -4,205 +4,297 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My plan and me</title>
+    <title>Architect's website</title>
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/aa34ccfabb.js" crossorigin="anonymous"></script>
+    <!-- style sheet -->
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
+     <!------------Header start------------->
     <header class="header">
-        <h1 class="header-title">All Thinks Are Possible If You believe</h1>
-        <p class="header-des">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
-        <button  class="btn-primary">Contact Us</button>
+        <div class="header-container">
+            <nav class="nav">
+                <h2 class="logo">G3 Architects</h2>
+                <ul class="menu">
+                    <a href="" class="active-menu"><li>Home</li></a>
+                    <a href=""><li>About us</li></a>
+                    <a href=""><li>Portfolio</li></a>
+                    <a href=""><li>Blog</li></a>
+                    <a href=""><li>Contact Us</li></a>
+                    <a href=""><li>Login</li></a>
+                </ul>
+            </nav>
+            <div class="banner">
+                <div class="banner-info">
+                    <h1 class="banner-heading">Brand New <br> Group of Architects</h1>
+                    <p class="banner-des">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                    <button class="primary-btn">Explore More</button>
+                </div>
+                <img class="banner-image" src="images/banner.png" alt="">
+            </div>
+        </div>
     </header>
-    <main>
-        <!------------failure history start------------->
-        <section class="failure-history">
-            <div>
-                <img src="Images/person.png" alt="">
-            </div>
-            <div class="history-container">
-                <h2 class="history-title">My failures of previous year</h2>
-                <p class="history-description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
-                <div class="failure-item">
-                    <li>Contrary to popular belief, is not simply.</li>
-                    <li>Contrary to popular belief.</li>
-                    <li>Contrary to popular , is not simply.</li>
-                    <li>Contrary to popular belief, is not simply.</li>
-                    <li>Contrary to popular simply.</li>
+        <!------------header end------------->
+    <main class="main">
+        <div class="main-container">
+            <!------------Feature-top-section start------------->
+            <section class="Features-top-section">
+                <div class="Features-gallery">
+                    <img src="images/team1.png" alt="">
+                    <img src="images/team2.png" alt="">
+                    <img src="images/team3.png" alt="">
+                    <img src="images/team4.png" alt="">
                 </div>
-            </div>
-        </section>
-        <!------------failure history end------------->
-        
-        <!------------future plan start------------->
-        <section class="plan-container">
-            <h2 class="primary-title">My Plans</h2>
-            <div class="plans">
-                <div class="plan-box">
-                    <img src="Images/web.png" alt="">
-                    <h3 class="plan-box-title">Web Development</h3>
-                    <p class="plan-description">I want to start</p>
+                <div class="Features-gallery-info">
+                    <h2 class="primary-heading"><span class="quick-list">Quick list</span> of Our <br> <span>Features</span> </h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                    <button class="primary-btn">Explore More</button>
                 </div>
-                <div class="plan-box">
-                    <img src="Images/js.png" alt="">
-                    <h3 class="plan-box-title">Javascript</h3>
-                    <p class="plan-description">I want to learn</p>
-                </div>
-                <div class="plan-box">
-                    <img src="Images/smoke.png" alt="">
-                    <h3 class="plan-box-title">Smoking Habit</h3>
-                    <p class="plan-description">I want to end</p>
-                </div>
-                <div class="plan-box">
-                    <img src="Images/ecom.png" alt="">
-                    <h3 class="plan-box-title">ecommerce</h3>
-                    <p class="plan-description">I want to develop</p>
-                </div>
-            </div>
-        </section>
-        <!------------future plan end------------->
-        <!------------resume section start------------->
-        <section class="resume">
-            <h2 class="primary-title">My Resume</h2>
-            <div class="resume-container">
-                <div class="expertise">
-                    <h3 class="expertise-header">Expertise</h3>
-                    <h4 class="expertise-title">2017 - Present</h4>
-                    <h5 class="expertise-subtitle">UX Developer</h5>
-                    <P class="expertise-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
-                    <hr>
-                    <h4 class="expertise-title">2016 - 2017</h4>
-                    <h5 class="expertise-subtitle">Front-end Developer</h5>
-                    <P class="expertise-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
-                    <hr>
-                    <h4 class="expertise-title">2015 - 2016</h4>
-                    <h5 class="expertise-subtitle">UX Designer</h5>
-                    <P class="expertise-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
-                </div>
-                <div class="expertise">
-                    <h3 class="expertise-header">Education</h3>
-                    <h4 class="expertise-title">2014 - 2016</h4>
-                    <h5 class="expertise-subtitle">B.S.C in Computer Engineering</h5>
-                    <P class="expertise-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
-                    <hr>
-                    <h4 class="expertise-title">2010 - 2014</h4>
-                    <h5 class="expertise-subtitle">Diploma in Computer Engineering</h5>
-                    <P class="expertise-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
-                    <hr>
-                    <h4 class="expertise-title">2007 - 2009</h4>
-                    <h5 class="expertise-subtitle">High School Degree</h5>
-                    <P class="expertise-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</P>
-                </div>
-                <div class="expertise">
-                    <h3 class="expertise-header">Skills</h3>
-                    <div class="skill-container">
-                        <h3 class="skill-rate">95%</h3>
-                        <h4 class="skill-title">hTL5 & CSS3</h4>
+            </section>
+            <!------------Feature-top-section end------------->
+            <!------------Feature-bottom-section start------------->
+            <section class="Features-bottom-section">
+                <div class="feature-details">
+                    <h2 class="primary-heading feature-details-title">Features you will <br> love & enjoy</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                    <div class="feature-container">
+                        <h3 class="feature-container-title">Dexktop & Mobile Version</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
                     </div>
-                    <div class="skill-container">
-                        <h3 class="skill-rate">75%</h3>
-                        <h4 class="skill-title">JavaScript</h4>
+                    <div class="feature-container">
+                        <h3 class="feature-container-title">Dexktop & Mobile Version</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
                     </div>
-                    <div class="skill-container">
-                        <h3 class="skill-rate">60%</h3>
-                        <h4 class="skill-title">PHP</h4>
+                    <div class="feature-container">
+                        <h3 class="feature-container-title">Dexktop & Mobile Version</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
                     </div>
-                    <div class="skill-container">
-                        <h3 class="skill-rate">85%</h3>
-                        <h4 class="skill-title">MERN</h4>
-                    </div>
-                    <hr class="break-line">
-                    <h3 class="expertise-header">Languages</h3>
-                    <div class="skill-container">
-                        <h3 class="skill-rate">98%</h3>
-                        <h4 class="skill-title">Bangla</h4>
-                    </div>
-                    <div class="skill-container">
-                        <h3 class="skill-rate">80%</h3>
-                        <h4 class="skill-title">English</h4>
-                    </div>
-                    <div class="skill-container">
-                        <h3 class="skill-rate">50%</h3>
-                        <h4 class="skill-title">Hindi</h4>
+                    <div class="feature-container">
+                        <h3 class="feature-container-title">Dexktop & Mobile Version</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!------------resume section end------------->
-        <!------------immediate Contact with me start------------->
-        <section class="immediate-contact">
-            <h2>Awlays keep a positive mindset</h2>
-            <button class="btn-primary">Call Now</button>
-        </section>
-        <!------------immediate Contact with me end------------->
-        <!------------setisfection section start------------->
-        <section class="hard-work">
-            <div class="work">
-                <div class="work-icon">
-                    <img src="Images/clock.png" alt="">
+                <div class="Features-bottom-image">
+                    <img src="images/architect.png" alt="">
+                    <div class="Features-button">
+                        <h1 class="ten-years">10+ Year</h1>
+                        <p>Experience</p>
+                    </div>
                 </div>
-                <div class="work-details">
-                    <h1 class="work-title">500</h1>
-                    <p class="work-des">Hours Worked</p>
+            </section>
+            <!------------Feature-bottom-section end------------->
+            <!------------purchase-section start------------->
+            <section class="purchase-section">
+                <h2 class="primary-heading">Pricing Architect</h2>
+                <div class="purchase-container">
+                    <div class="purchase-table">
+                        <h3 class="purchase-title">Single</h3>
+                        <hr>
+                        <p class="purchase-price"><sup>$</sup>19</p>
+                        <ul class="purchase-content">
+                            <li class="icon-check"><i class="fa-solid fa-check"></i> Premium support</li>
+                            <li class="icon-check"><i class="fa-solid fa-check"></i> Template updates</li>
+                            <li>For 1 year</li>
+                            <li class="icon-remove"><i class="fa-solid fa-xmark"></i> Access all templates</li>
+                        </ul> 
+                        <form action="" class="purchase-button"> 
+                            <input type="submit" value="Buy Now"> 
+                        </form>
+                    </div>
+                    <div class="purchase-table">
+                        <h3 class="purchase-title">Membership</h3>
+                        <hr>
+                        <p class="purchase-price"><sup>$</sup>129</p>
+                        <ul class="purchase-content">
+                            <li class="icon-check"><i class="fa-solid fa-check"></i> Premium support</li>
+                            <li class="icon-check"><i class="fa-solid fa-check"></i> Template updates</li>
+                            <li>For 1 year</li>
+                            <li class="icon-remove"><i class="fa-solid fa-xmark"></i> Access all templates</li>
+                        </ul> 
+                        <form action="" class="purchase-button"> 
+                            <input type="submit" value="Buy Now"> 
+                        </form>
+                    </div>
+                    <div class="purchase-table">
+                        <h3 class="purchase-title">Lifetime</h3>
+                        <hr>
+                        <p class="purchase-price"><sup>$</sup>292</p>
+                        <ul class="purchase-content">
+                            <li class="icon-check"><i class="fa-solid fa-check"></i> Premium support</li>
+                            <li class="icon-check"><i class="fa-solid fa-check"></i> Template updates</li>
+                            <li>For 1 year</li>
+                            <li class="icon-remove"><i class="fa-solid fa-xmark"></i> Access all templates</li>
+                        </ul> 
+                        <form action="" class="purchase-button"> 
+                            <input type="submit" value="Buy Now"> 
+                        </form>
+                    </div>
+                    <div class="purchase-table">
+                        <h3 class="purchase-title">Lifetime</h3>
+                        <hr>
+                        <p class="purchase-price"><sup>$</sup>349</p>
+                        <ul class="purchase-content">
+                            <li class="icon-check"><i class="fa-solid fa-check"></i> Premium support</li>
+                            <li class="icon-check"><i class="fa-solid fa-check"></i> Template updates</li>
+                            <li>For 1 year</li>
+                            <li class="icon-remove"><i class="fa-solid fa-xmark"></i> Access all templates</li>
+                        </ul> 
+                        <form action="" class="purchase-button"> 
+                            <input type="submit" value="Buy Now"> 
+                        </form>
+                    </div>
                 </div>
-            </div>
-            <div class="work">
-                <div class="work-icon">
-                    <img src="Images/marketing.png" alt="">
+            </section>
+            <!------------purchase-section end------------->
+            <!------------work-section start------------->
+            <section class="work-section" >
+                <h2 class="primary-heading">Our Service</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <div class="work-container">
+                    <div class="work">
+                        <div class="work-icon">
+                            <i class="fa fa-bullhorn"></i>
+                        </div>
+                        <div class="work-wrap">
+                            <h2>Fresh and Clean</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <div class="work-icon">
+                            <i class="fa fa-comments"></i>
+                        </div>
+                        <div class="work-wrap">
+                            <h2>Retina ready</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <div class="work-icon">
+                            <i class="fa fa-cloud-download"></i>
+                        </div>
+                        <div class="work-wrap">
+                            <h2>Easy to customize</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <div class="work-icon">
+                            <i class="fa fa-leaf"></i>
+                        </div>
+                        <div class="work-wrap">
+                            <h2>Adipisicing elit</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <div class="work-icon">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <div class="work-wrap">
+                            <h2>Sed do eiusmod</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <div class="work-icon">
+                            <i class="fa fa-cogs"></i>
+                        </div>
+                        <div class="work-wrap">
+                            <h2>Labore et dolore</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="work-details">
-                    <h1 class="work-title">50K</h1>
-                    <p class="work-des">Project Finished</p>
+            </section>
+            <!------------work-section end------------->
+            <!------------Facts-section start------------->
+            <section class="Facts-section">
+                <h2 class="primary-heading">Some Facts</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but <br> the majority have suffered alteration.</p>
+                <div class="fects-container">
+                    <div class="fact-single">
+                        <div class="fect">
+                            <div class="side-fect">
+                                <img src="images/icons/ribon.png" alt="">
+                                <h3>54</h3>
+                                <p>Awards Winnings</p>
+                            </div>
+                            <div class="backside-fect">
+                                <p>There are many variations of passages of Lorem Ipsum available, but <br> the majority have suffered alteration.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fact-single">
+                        <div class="fect">
+                            <div class="side-fect">
+                                <img src="images/icons/projects.png" alt="">
+                                <h3>1458</h3>
+                                <p>Project Finished</p>
+                            </div>
+                            <div class="backside-fect">
+                                <p>There are many variations of passages of Lorem Ipsum available, but <br> the majority have suffered alteration.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fact-single">
+                        <div class="fect">
+                            <div class="side-fect">
+                                <img src="images/icons/customers.png" alt="">
+                                <h3>590</h3>
+                                <p>Clients Worked</p>
+                            </div>
+                            <div class="backside-fect">
+                                <p>There are many variations of passages of Lorem Ipsum available, but <br> the majority have suffered alteration.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fact-single">
+                        <div class="fect">
+                            <div class="side-fect">
+                                <img src="images/icons/email.png" alt="">
+                                <h3>22578</h3>
+                                <p>Email Send</p>
+                            </div>
+                            <div class="backside-fect">
+                                <p>There are many variations of passages of Lorem Ipsum available, but <br> the majority have suffered alteration.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
-            </div>
-            <div class="work">
-                <div class="work-icon">
-                    <img src="Images/smile.png" alt="">
+            </section>
+            <!------------Facts-section end------------->
+            <!------------Sponspors-section start------------->
+            <section class="Sponspors-section">
+                <h2 class="primary-heading">Our Sponspors</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but <br> the majority have suffered alteration.</p>
+                <div class="sponsers">
+                    <div class="sponsor">
+                        <img src="images/sponsors/sponsor-1.png" alt="">
+                    </div>
+                    <div class="sponsor">
+                        <img src="images/sponsors/sponsor-2.png" alt="">
+                    </div>
+                    <div class="sponsor">
+                        <img src="images/sponsors/sponsor-3.png" alt="">
+                    </div>
+                    <div class="sponsor">
+                        <img src="images/sponsors/sponsor-4.png" alt="">
+                    </div>
+                    <div class="sponsor">
+                        <img src="images/sponsors/sponsor-5.png" alt="">
+                    </div>
                 </div>
-                <div class="work-details">
-                    <h1 class="work-title">200K</h1>
-                    <p class="work-des">Happy Clients</p>
-                </div>
-            </div>
-            <div class="work">
-                <div class="work-icon">
-                    <img src="Images/heart.png" alt="">
-                </div>
-                <div class="work-details">
-                    <h1 class="work-title">2K</h1>
-                    <p class="work-des">Coffee Drinked</p>
-                </div>
-            </div>
-        </section>
-        <!------------setisfection section end------------->
-    </main>
-    <!------------Contact related all info start------------->
-    <footer class="footer">
-        <div class="social">
-            <h2 class="social-title">Future</h2>
-            <p class="social-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
-            <p class="contact-way">Email : info@gmail.com</p>
-            <p>Phone : 01500 00 00 00</p>
-            <div class="social-items">
-                <a href="">
-                    <img src="Images/fb.png" alt="">
-                </a>
-                <a href="">
-                    <img src="Images/twitter.png" alt="">
-                </a>
-                <a href="">
-                    <img src="Images/youtube.png" alt="">
-                </a>
-            </div>
-        </div>
-        <div class="contact">
-            <h3>Subscribe</h3>
-            <form action="">
-                <input class="email" type="email" name="email" id="" placeholder="Enter your email">
-                <input class="submit" type="submit" value="Subscribe">
-            </form>
-        </div>
-    </footer>
-    <!------------Contact related all info end------------->
+            </section>
+            <!------------Sponspors-section end------------->
+        </main>
+        <!------------Footer start------------->
+        <footer class="footer">
+            <p class="copyright"><small>All rights reserved copyright@2023 startup landing page design</small></p>
+        </footer>
+        <!------------Footer end------------->
+    </div>
 </body>
 </html>
